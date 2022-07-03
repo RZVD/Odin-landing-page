@@ -15,12 +15,16 @@ ul a{
 }
 
 .logo{
-    width: 160px; 
+    width: 138px; 
     height : auto;
     -webkit-filter: invert(80%);
 }
 .top{
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 .header{
     display: flex;
@@ -34,6 +38,12 @@ ul a{
     gap: 12px;
 }
 
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer{
     background-color: #1f2937;
     align-items: center;
@@ -45,8 +55,42 @@ ul a{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 0;
 }
 .left .secondary{
     font-size: 18px;
     color: #e5e7eB;
+}
+.left{
+    padding: 24px;
+    margin: 60px;
+    justify-content: center;
+    align-content: center;
+    min-width: 200px;
+    max-width: 400px;
+
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+.hero img{
+    width: 600px;
+    height: 250px;
+    -webkit-filter: invert(80%);
+
+}
+button{
+    /*todo rounded corners*/
+    background-color: #3882f6;
+    color: white;
+    padding-left: 16px;
+    padding-right :16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 15%;
+    font-weight: bold;
+    margin: 0%;
+    font-size: medium;
 }
