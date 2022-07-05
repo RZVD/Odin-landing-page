@@ -2,8 +2,6 @@ html{
     height: 100%;
 } 
 body{
-    display: flex;
-    flex-direction: column;
     margin : 0px;
     padding : 0px;    
 }
@@ -139,4 +137,28 @@ li>p{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.quote_container{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.quote_container>.quote{
+    max-width: 800px;
+    font-size: 34px;
+    color: #48576b;
+    text-align: center;
+    font-style: light italic;
+    margin-bottom: 0px;
+}
+.author{
+    align-self: flex-end;
+    font-size: 34px;
+    margin-top: 5px;
+    padding-right: 400px;
+
 }
