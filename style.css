@@ -26,12 +26,16 @@ ul a{
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content:space-around;        
     margin-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     
 }
 .header-links{
@@ -53,6 +57,7 @@ ul a{
     padding: 16px;
     justify-self : flex-end;
     margin-bottom: 0;
+    color: white;
 }
 .left .main{
     font-size: 48px;
@@ -65,8 +70,8 @@ ul a{
     color: #e5e7eB;
 }
 .left{
-    padding: 24px;
-    margin: 60px;
+    padding-bottom: 24px;
+    margin-bottom: 60px;
     justify-content: center;
     align-content: center;
     min-width: 200px;
@@ -77,6 +82,8 @@ ul a{
     display: flex;
     justify-content: center;
     padding-top: 0;
+    margin-top: 0;
+    gap: 150px;
 }
 .hero img{
     width: 600px;
@@ -91,10 +98,14 @@ button{
     padding-right :16px;
     padding-top: 6px;
     padding-bottom: 6px;
-    border-radius: 15%;
+    border-radius: 10px;
     font-weight: bold;
     margin: 0%;
-    font-size: medium;
+    font-size: 25px;
+    
+}
+.hero button{
+    border: none;
 }
 .info-header-text{
     font-size: 36px;
@@ -160,5 +171,40 @@ li>p{
     font-size: 34px;
     margin-top: 5px;
     padding-right: 400px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
 
+}
+.pop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    width: 1200px;
+    height: 150px;
+    padding: 25px;
+}
+.pop>button{
+    border-color: white;
+    border-width: 5px;
+    
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.pop_left>.main{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.pop_left>.sub{
+    font-size: 18px;
+    margin-top: 0px;
 }
