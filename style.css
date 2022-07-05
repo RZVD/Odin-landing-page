@@ -1,8 +1,11 @@
+html{
+    height: 100%;
+} 
 body{
     display: flex;
     flex-direction: column;
-    margin : 0;
-    padding : 0;
+    margin : 0px;
+    padding : 0px;    
 }
 
 ul{
@@ -50,6 +53,8 @@ ul a{
     display: flex;
     justify-content: center;
     padding: 16px;
+    justify-self : flex-end;
+    margin-bottom: 0;
 }
 .left .main{
     font-size: 48px;
@@ -82,7 +87,6 @@ ul a{
 
 }
 button{
-    /*todo rounded corners*/
     background-color: #3882f6;
     color: white;
     padding-left: 16px;
@@ -93,4 +97,46 @@ button{
     font-weight: bold;
     margin: 0%;
     font-size: medium;
+}
+.info-header-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li>div{
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 10%;
+    
+}
+.content>ul{
+    display: flex;
+    gap: 50px;
+    align-items: center; 
+}
+.test{
+    font-size: 18px;
+    text-decoration: none;
+    color: #353638;
+    display: flex;
+    text-align: center;
+}
+li>p{
+    max-width : 180px;
+}
+.test-li{
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
